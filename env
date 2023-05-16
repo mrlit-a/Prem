@@ -1,0 +1,26 @@
+### Email (Gmail)
+USER_EMAIL_PROVIDER = 'gmail'
+USER_NAME = 'Sebastien'
+USER_EMAIL = 'andysebastien14@gmail.com'
+USER_APP_PASSWORD = 'xhudwasrgprzjzyv'
+
+### Neoxr API : https://api.neoxr.my.id
+API_KEY = ''
+
+### Open AI : https://beta.openai.com/account/api-keys
+OPENAI_API_KEY = ''
+
+### Database : https://www.mongodb.com/
+DATABASE_URL = ''
+
+
+### Chatbot (Auto Reply) : https://brainshop.ai/
+BRAIN_API_ID = 
+BRAIN_API_SECRET = ''
+
+### Anti Porn : https://api.sightengine.com
+API_USER = ''
+API_SECRET = ''
+
+### Audio Transcription (Whisper) : https://replicate.com/account/api-tokens
+REPLICATE_API_TOKEN = ''

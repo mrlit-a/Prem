@@ -1,0 +1,49 @@
+{
+   "name": "neoxr-bot",
+   "version": "3.0.3",
+   "description": "WhatsApp Bot (Base)",
+   "main": "index.js",
+   "scripts": {
+      "start": "node ."
+   },
+   "engines": {
+      "node": "14.x",
+      "npm": "8.x"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neoxr/neoxr-bot.git"
+   },
+   "keywords": [
+      "wabot-md"
+   ],
+   "author": "Wildan Izzudin",
+   "license": "ISC",
+   "dependencies": {
+      "@adiwajshing/baileys": "git+https://github.com/WhiskeySockets/Baileys",
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "@colors/colors": "1.5.0",
+      "@neoxr/captcha": "latest",
+      "@neoxr/neoxr-js": "git+https://github.com/neoxr/neoxr-js.git",
+      "canvas": "2.9.0",
+      "canvacord": "5.4.8",
+      "cfonts": "~2.10.0",
+      "express": "~4.16.4",
+      "json-stable-stringify": "^1.0.2",
+      "network-speed": "^2.1.1",
+      "node-cron": "^3.0.0",
+      "node-gtts": "^2.0.2",
+      "nodemailer": "^6.9.0",
+      "openai": "^3.1.0",
+      "pino": "~7.0.5",
+      "replicate": "0.6.1",
+      "qrcode": "1.5.0",
+      "spinnies": "^0.5.1",
+      "translate-google-api": "~1.0.4",
+      "yt-search": "~2.10.0"
+   },
+   "bugs": {
+      "url": "https://github.com/neoxr/neoxr-bot/issues"
+   },
+   "homepage": "https://github.com/neoxr/neoxr-bot#readme"
+}
