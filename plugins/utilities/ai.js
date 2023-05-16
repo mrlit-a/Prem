@@ -13,7 +13,7 @@ exports.run = {
       command,
    }) => {
       try {
-         if (command == 'chatgpt' || command == 'brainly') {
+         if (command == 'ai' || command == 'brainly') {
             if (!m.quoted && !text) return client.reply(m.chat, Func.example(isPrefix, command, 'how to create an api'), m)
             if (m.quoted && !/conversation|extend/.test(m.quoted.mtype)) return m.reply(Func.texted('bold', `🚩 Text not found!`))
             client.sendReact(m.chat, '🕒', m.key)
@@ -32,7 +32,7 @@ exports.run = {
             })
             if (json.statusText != 'OK' || json.data.choices.length == 0) return client.reply(m.chat, global.status.fail, m)
             client.reply(m.chat, json.data.choices[0].text.trim(), m)
-         } else if (command == 'ai' || command == 'ia') {
+         } else if (command == 'chatgpt' || command == 'gpt') {
             global.db.gpt = global.db.gpt ? global.db.gpt : {}
             if (!global.db.gpt[m.sender]) global.db.gpt[m.sender] = []
             if (global.db.gpt[m.sender].length >= 7) global.db.gpt[m.sender] = [global.db.gpt[m.sender][global.db.gpt[m.sender].length - 1]]
