@@ -1,6 +1,6 @@
 ### Email (Gmail)
-USER_EMAIL_PROVIDER = 'gmail'
-USER_NAME = 'andy xr'
+USER_EMAIL_PROVIDER = 'andy lit'
+USER_NAME = 'Sebastien Andy'
 USER_EMAIL = 'andysebastien14@gmail.com'
 USER_APP_PASSWORD = 'xhudwasrgprzjzyv'
 
@@ -8,10 +8,10 @@ USER_APP_PASSWORD = 'xhudwasrgprzjzyv'
 API_KEY = ''
 
 ### Open AI : https://beta.openai.com/account/api-keys
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = ''
 
 ### Database : https://www.mongodb.com/
-DATABASE_URL = ''
+DATABASE_URL = 'mongodb+srv://maxiiiii:yooo6916@cluster0.qsehi0c.mongodb.net/?retryWrites=true&w=majority'
 
 
 ### Chatbot (Auto Reply) : https://brainshop.ai/
