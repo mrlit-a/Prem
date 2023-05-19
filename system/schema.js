@@ -71,10 +71,10 @@ module.exports = (m) => {
          if (!('autoread' in group)) group.autoread = false
          if (!('antibot' in group)) group.antibot = true
          if (!('antidelete' in group)) group.antidelete = false
-         if (!('antilink' in group)) group.antilink = false
+         if (!('antilink' in group)) group.antilink = true
          if (!('antiporn' in group)) group.antibot = false
          if (!('antivirtex' in group)) group.antivirtex = true
-         if (!('captcha' in group)) group.captcha = true
+         if (!('captcha' in group)) group.captcha = false
          if (!('filter' in group)) group.filter = false
          if (!('game' in group)) group.game = true
          if (!('left' in group)) group.left = false
@@ -91,7 +91,7 @@ module.exports = (m) => {
             jid: m.chat,
             activity: 0,
             antibot: true,
-            autoread: falss,
+            autoread: false,
             antidelete: false,
             antilink: false,
             antiporn: false,
@@ -137,9 +137,9 @@ module.exports = (m) => {
       if (!('levelup' in setting)) setting.levelup= false
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
-      if (!('groupmode' in setting)) setting.groupmode = false
+      if (!('groupmode' in setting)) setting.groupmode = true
       if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
-      if (!('sk_author' in setting)) setting.sk_author = '@andymrlit'
+      if (!('sk_author' in setting)) setting.sk_author = '@andy_mr_lit'
       if (!('self' in setting)) setting.self = false
       if (!('verify' in setting)) setting.verify = false
       if (!('mimic' in setting)) setting.mimic = []
@@ -155,7 +155,7 @@ module.exports = (m) => {
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
       if (!('msg' in setting)) setting.msg = 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/aabe3bbaa00faa3330e9e.png',
+      if (!('cover' in setting)) setting.cover = 'https://srv.neoxr.tk/files/Ff86r7.jpg'
       if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
    } else {
       global.db.setting = {
@@ -182,10 +182,10 @@ module.exports = (m) => {
          onlyprefix: '+',
          owners: ['17869360209'],
          lastReset: new Date * 1,
-         msg: 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact andy.',
-      if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/aabe3bbaa00faa3330e9e.png',
-      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
+         msg: 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact the owner.',
+         menuStyle: 4,
+         cover: 'https://srv.neoxr.tk/files/Ff86r7.jpg',
+         link: 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
       }
    }
 }
