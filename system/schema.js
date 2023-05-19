@@ -137,11 +137,11 @@ module.exports = (m) => {
       if (!('levelup' in setting)) setting.levelup= false
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
-      if (!('groupmode' in setting)) setting.groupmode = true
+      if (!('groupmode' in setting)) setting.groupmode = false
       if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
       if (!('sk_author' in setting)) setting.sk_author = '@andy_mr_lit'
       if (!('self' in setting)) setting.self = false
-      if (!('verify' in setting)) setting.verify = false
+      if (!('verify' in setting)) setting.verify = true
       if (!('mimic' in setting)) setting.mimic = []
       if (!('hidden' in setting)) setting.hidden = []
       if (!('limiter' in setting)) setting.limiter = true
