@@ -11,7 +11,7 @@ API_KEY = ''
 OPENAI_API_KEY = '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'
 
 ### Database : https://www.mongodb.com/
-DATABASE_URL = ''
+DATABASE_URL = 'mongodb+srv://andyprembot:yooo6916@cluster0.ytavkwu.mongodb.net/?retryWrites=true&w=majority'
 
 
 ### Chatbot (Auto Reply) : https://brainshop.ai/
