@@ -1,8 +1,8 @@
 ### Email (Gmail)
-USER_EMAIL_PROVIDER = 'andy lit'
+USER_EMAIL_PROVIDER = 'gmail'
 USER_NAME = 'Sebastien Andy'
-USER_EMAIL = 'andysebastien14@gmail.com'
-USER_APP_PASSWORD = 'xhudwasrgprzjzyv'
+USER_EMAIL = 'garenahackernoban@gmail.com'
+USER_APP_PASSWORD = 'jahmdibcqikzffpb'
 
 ### Neoxr API : https://api.neoxr.my.id
 API_KEY = ''
