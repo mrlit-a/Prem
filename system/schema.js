@@ -155,7 +155,7 @@ module.exports = (m) => {
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
       if (!('msg' in setting)) setting.msg = 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://srv.neoxr.tk/files/Ff86r7.jpg'
+      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/aabe3bbaa00faa3330e9e.png'
       if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
    } else {
       global.db.setting = {
@@ -184,7 +184,7 @@ module.exports = (m) => {
          lastReset: new Date * 1,
          msg: 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact the owner.',
          menuStyle: 4,
-         cover: 'https://srv.neoxr.tk/files/Ff86r7.jpg',
+         cover: 'https://telegra.ph/file/aabe3bbaa00faa3330e9e.png',
          link: 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
       }
    }
