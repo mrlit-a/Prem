@@ -4,13 +4,13 @@ global.owner = '17869360209'
 // Owner name
 global.owner_name = 'andy_mr_lit'
 // Database name (Default: database)
-global.database = 'database'
+global.database = 'andydatabase'
 // Maximum upload file size limit (Default : 100 MB)
 global.max_upload = 100
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
 // User Limitation (Default : 25)
-global.limit = 15
+global.limit = 5
 // Multiplier (the higher the multiplier the harder it is to level up)
 global.multiplier = 36
 // Min & Max for game reward
