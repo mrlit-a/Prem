@@ -91,12 +91,12 @@ module.exports = (m) => {
             jid: m.chat,
             activity: 0,
             antibot: true,
-            autoread: false,
+            autoread: falss,
             antidelete: false,
             antilink: false,
             antiporn: false,
             antivirtex: false,
-            captcha: true,
+            captcha: false,
             filter: false,
             game: true,
             left: false,
@@ -141,7 +141,7 @@ module.exports = (m) => {
       if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
       if (!('sk_author' in setting)) setting.sk_author = '@andymrlit'
       if (!('self' in setting)) setting.self = false
-      if (!('verify' in setting)) setting.verify = true
+      if (!('verify' in setting)) setting.verify = false
       if (!('mimic' in setting)) setting.mimic = []
       if (!('hidden' in setting)) setting.hidden = []
       if (!('limiter' in setting)) setting.limiter = true
@@ -170,7 +170,7 @@ module.exports = (m) => {
          sk_pack: 'Sticker',
          sk_author: '@andymrlit',
          self: false,
-         verify: true,
+         verify: false,
          mimic: [],
          hidden: [],
          limiter: true,
