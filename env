@@ -8,10 +8,10 @@ USER_APP_PASSWORD = 'xhudwasrgprzjzyv'
 API_KEY = ''
 
 ### Open AI : https://beta.openai.com/account/api-keys
-OPENAI_API_KEY = ''
+OPENAI_API_KEY = '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'
 
 ### Database : https://www.mongodb.com/
-DATABASE_URL = 'mongodb+srv://maxiiiii:yooo6916@cluster0.qsehi0c.mongodb.net/?retryWrites=true&w=majority'
+DATABASE_URL = ''
 
 
 ### Chatbot (Auto Reply) : https://brainshop.ai/
