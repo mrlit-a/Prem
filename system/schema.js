@@ -74,7 +74,7 @@ module.exports = (m) => {
          if (!('antilink' in group)) group.antilink = false
          if (!('antiporn' in group)) group.antibot = false
          if (!('antivirtex' in group)) group.antivirtex = true
-         if (!('captcha' in group)) group.captcha = false
+         if (!('captcha' in group)) group.captcha = true
          if (!('filter' in group)) group.filter = false
          if (!('game' in group)) group.game = true
          if (!('left' in group)) group.left = false
@@ -96,7 +96,7 @@ module.exports = (m) => {
             antilink: false,
             antiporn: false,
             antivirtex: false,
-            captcha: false,
+            captcha: true,
             filter: false,
             game: true,
             left: false,
@@ -141,7 +141,7 @@ module.exports = (m) => {
       if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
       if (!('sk_author' in setting)) setting.sk_author = '@andymrlit'
       if (!('self' in setting)) setting.self = false
-      if (!('verify' in setting)) setting.verify = false
+      if (!('verify' in setting)) setting.verify = true
       if (!('mimic' in setting)) setting.mimic = []
       if (!('hidden' in setting)) setting.hidden = []
       if (!('limiter' in setting)) setting.limiter = true
@@ -155,8 +155,8 @@ module.exports = (m) => {
       if (!isNumber(setting.lastReset)) setting.lastReset = new Date * 1
       if (!('msg' in setting)) setting.msg = 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
-      if (!('cover' in setting)) setting.cover = 'https://a.uguu.se/pzQbZYej.png'
-      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/Dqb7Z2G5mqnIPSc6xbVWuH'
+      if (!('cover' in setting)) setting.cover = 'https://srv.neoxr.tk/files/Ff86r7.jpg'
+      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
    } else {
       global.db.setting = {
          autodownload: true,
@@ -170,7 +170,7 @@ module.exports = (m) => {
          sk_pack: 'Sticker',
          sk_author: '@andymrlit',
          self: false,
-         verify: false,
+         verify: true,
          mimic: [],
          hidden: [],
          limiter: true,
@@ -184,7 +184,7 @@ module.exports = (m) => {
          lastReset: new Date * 1,
          msg: 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact andy.',
          menuStyle: 4,
-         cover: 'https://a.uguu.se/pzQbZYej.png',
+         cover: 'https://srv.neoxr.tk/files/Ff86r7.jpg',
          link: 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
       }
    }
