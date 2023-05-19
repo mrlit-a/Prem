@@ -183,9 +183,9 @@ module.exports = (m) => {
          owners: ['17869360209'],
          lastReset: new Date * 1,
          msg: 'Hello +tag Good Afternoon! I am a WhatsApp bot which comes with cool features like creating stickers, sending songs, searching videos and much more. I am here to help you in a variety of ways, including submitting.\n\n◦ *Database* : Mongo\n◦ *Library* : Baileys@adiwajshing/baileys\n\nIf you find an error or want to upgrade premium plan contact andy.',
-         menuStyle: 4,
-         cover: 'https://telegra.ph/file/aabe3bbaa00faa3330e9e.png',
-         link: 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
+      if (!isNumber(setting.menuStyle)) setting.menuStyle = 4
+      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/aabe3bbaa00faa3330e9e.png',
+      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/DSjOomRaTkU4z1a5ngl2Yw'
       }
    }
 }
