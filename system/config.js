@@ -33,6 +33,8 @@ global.botname = `© andymd v${require('package.json').version} (Premium Script)
 // Footer text
 global.footer = 'ANDY BOT'
 // Scraper
+global.ram_usage = 900000000
+// ram usage for heroku user by andy
 global.scrap = Scraper
 // Function
 global.Func = Function
