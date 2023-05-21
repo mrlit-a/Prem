@@ -5,18 +5,18 @@ USER_EMAIL = 'garenahackernoban@gmail.com'
 USER_APP_PASSWORD = 'jahmdibcqikzffpb'
 
 ### Neoxr API : https://api.neoxr.my.id
-API_KEY = ''
+API_KEY = 'ywxzyydesu'
 
 ### Open AI : https://beta.openai.com/account/api-keys
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = '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'
 
 ### Database : https://www.mongodb.com/
 DATABASE_URL = ''
 
 
 ### Chatbot (Auto Reply) : https://brainshop.ai/
-BRAIN_API_ID = 
-BRAIN_API_SECRET = ''
+BRAIN_API_ID = 172389
+BRAIN_API_SECRET = 'ryw2Ek6jmPvDbgL6'
 
 ### Anti Porn : https://api.sightengine.com
 API_USER = ''
