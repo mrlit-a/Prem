@@ -5,7 +5,7 @@ USER_EMAIL = 'garenahackernoban@gmail.com'
 USER_APP_PASSWORD = 'jahmdibcqikzffpb'
 
 ### Neoxr API : https://api.neoxr.my.id
-API_KEY = 'ywxzyydesu'
+API_KEY = 'Wmlt9t'
 
 ### Open AI : https://beta.openai.com/account/api-keys
 OPENAI_API_KEY = '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'
