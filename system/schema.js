@@ -141,7 +141,7 @@ module.exports = (m) => {
       if (!('sk_pack' in setting)) setting.sk_pack = 'Sticker'
       if (!('sk_author' in setting)) setting.sk_author = '@andy_mr_lit'
       if (!('self' in setting)) setting.self = false
-      if (!('verify' in setting)) setting.verify = true
+      if (!('verify' in setting)) setting.verify = false
       if (!('mimic' in setting)) setting.mimic = []
       if (!('hidden' in setting)) setting.hidden = []
       if (!('limiter' in setting)) setting.limiter = true
