@@ -5,7 +5,7 @@ exports.run = {
       client,
       isPrefix
    }) => {
-      client.reply(m.chat, `🏷️ Mise à niveau vers le plan premium uniquement 150 gdes,- pour obtenir des limites de 1K pendant 1 mois.\n\nIfvous souhaitez acheter, contactez *${isPrefix}owner*`, m)
+      client.reply(m.chat, `🏷️ siw bezwen achte plan premium lan wap bezwen 250gdes pou on mois.\n\nIfvous souhaitez acheter, taper *${isPrefix}owner*`, m)
    },
    error: false,
    cache: true,
