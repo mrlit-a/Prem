@@ -155,7 +155,7 @@ module.exports = async (client, m, plugins, store) => {
       const prefixes = global.db.setting.multiprefix ? global.db.setting.prefix : [global.db.setting.onlyprefix]
       let matcher = Func.matcher(command, commands).filter(v => v.accuracy >= 60)
       if (isPrefix && !commands.includes(command) && matcher.length > 0 && !setting.self) {
-         if (!m.isGroup || (m.isGroup && !groupSet.mute)) return client.reply(m.chat, `🚩 Command you are using is wrong, try the following recommendations :\n\n${matcher.map(v => '➠ *' + (isPrefix ? isPrefix : '') + v.string + '* (' + v.accuracy + '%)').join('\n')}`, m)
+         if (!m.isGroup || (m.isGroup && !groupSet.mute)) return client.reply(m.chat, `🚩 La commande que vous utilisez est incorrecte, essayez les recommandations suivantes :\n\n${matcher.map(v => '➠ *' + (isPrefix ? isPrefix : '') + v.string + '* (' + v.accuracy + '%)').join('\n')}`, m)
       }
       if (body && isPrefix && commands.includes(command) || body && !isPrefix && commands.includes(command) && setting.noprefix || body && !isPrefix && commands.includes(command) && global.evaluate_chars.includes(command)) {
          const is_commands = Object.fromEntries(Object.entries(plugins).filter(([name, prop]) => prop.run.usage))
@@ -241,7 +241,7 @@ module.exports = async (client, m, plugins, store) => {
                continue
             }
             if (cmd.limit && users.limit < 1) {
-               return client.reply(m.chat, `🚩 Votre limite d'utilisation du bot est épuisée et sera réinitialisée à 00h00 WIB\n\nPour obtenir plus de limites de mise à niveau vers l'envoi premium *${prefixes[0]}premium*`, m).then(() => users.premium = false)
+               return client.reply(m.chat, `🚩 Limit bot ou a fini wap ka itilizel demen sdv anko\n\nSiw Bezwen on plan premium pou limit ou pa janm expire just ekri*${prefixes[0]}premium*`, m).then(() => users.premium = false)
                continue
             }
             if (cmd.limit && users.limit > 0) {
