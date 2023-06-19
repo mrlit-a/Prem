@@ -7,4 +7,21 @@ Language :  [EN](https://github.com/neoxr/neoxr-bot/blob/master/EN.md) | [ID](ht
 You can see the documentation for using the messaging function [Here](https://github.com/neoxr/neoxr-bot/blob/master/DOCS.md).
 
 ### 乂  License
-Copyright (c) 2022 Neoxr . Licensed under the [GNU GPLv3](https://github.com/neoxr/neoxr-bot/blob/master/LICENSE)
+Copyright (c) 2022 Andy . Licensed under the [GNU GPLv3](https://github.com/neoxr/neoxr-bot/blob/master/LICENSE)
+
+The Open Ai Chat Gpt Bot Devopted By Andy ofc(Mr.Lit) , Base Bot : ANdY AI
+ </i></p> <br>
+ 
+ 
+ 1. [`FORK THIS REPO`](https://github.com/Andylitt/Prem/fork)
+ 2. [`SCAN QR CODE`](https://replit.com/@/OpenAi-ChatGPT)
+ 3. Upload <b>creds.json</b> File in to <b>[`ai_bot_sessions`](sessions)</b> Folder.
+ <br>
+ 4. Deploy Using 
+
+ [`Heroku`](https://app.heroku)  
+ [`Railway`](https://railway.app?referralCode=jDDNQq) <br>
+ [`Replit`](https://replit.com)
+ 
+<br><br>
+[`CLICK TO GET API KEY`](https://platform.openai.com/docs/) <br> 
