@@ -14,7 +14,7 @@ The Open Ai Chat Gpt Bot Devopted By Andy ofc(Mr.Lit) , Base Bot : ANdY AI
  
  
  1. [`FORK THIS REPO`](https://github.com/Andylitt/Prem/fork)
- 2. [`SCAN QR CODE`](https://replit.com/@/OpenAi-ChatGPT)
+ 2. [`SCAN QR CODE`](https://replit.com/@MRNima/OpenAi-ChatGPT-QR-CODE-SCANER)
  3. Upload <b>creds.json</b> File in to <b>[`session`](sessions)</b> Folder.
  <br>
  4. Deploy Using 
